@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 const ourservices = () => {
   return (
-    <main className='w-screen h-auto relative bg-white '>
+    <main id='Ourservices' className='w-screen h-auto relative bg-white '>
      {/* <div className='hidden md:flex  w-[600px] h-[120px] bg-green-500 '>
      </div> */}
      <div className='flex flex-col mt-6 px-3 py-1 items-center '>

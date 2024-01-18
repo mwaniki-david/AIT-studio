@@ -4,9 +4,9 @@ import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <nav className='fixed top-0 w-full h-[65px] bg-white shadow-md shadow-black backdrop-blur-md z-50 px-10'>
-        <div className='h-full flex flex-row items-center justify-between gap-7'>
-           <div className=' flex flex-row items-center h-full w-auto gap-3'>
+    <nav className='fixed top-0 w-full h-[65px] bg-white shadow-sm shadow-red-800 backdrop-blur-md z-50 px-[50px]'>
+        <div className='h-full flex flex-row items-center justify-between '>
+           <div className=' flex flex-row items-center h-full w-auto gap-3 ml-6'>
             <Link
             href='/'
             >
@@ -18,17 +18,30 @@ const Navbar = () => {
                 className='w-full h-full '
                 />
             </Link>
-            <h1 className='text-bold uppercase md:hidden  lg:block'>studio</h1> 
            </div>
-           <div className=' hidden md:flex flex-row md:gap-[50px] lg:gap-[100px] h-full items-center px-5 uppercase '>
-            <a href='/ourservices'>book a session</a>
-            <a href='/about'>pricing</a>
-            <a href='/'>studio</a>
-            <a href='/'>more</a>
+           <div className=' hidden md:flex flex-row md:gap-[50px] lg:gap-[10px]  w-auto h-full items-center px-1 pl-[120px] uppercase '>
+           <ul className='hidden md:flex gap-[45px]  mt-4 px-5 py-3'>
+            <li className='ml-10 text-sm uppercase hover:border-b border-red-800'>
+              <Link href='/'>Home</Link>
+            </li>
+            <li className='ml-10 text-sm uppercase hover:border-b border-red-800'>
+              <Link href='/#Ourservices'>Ourservices</Link>
+            </li>
+            <li className='ml-10 text-sm uppercase hover:border-b border-red-800'>
+              <Link href='/#Pricing'>Pricing</Link>
+            </li>
+            <li className='ml-10 text-sm uppercase hover:border-b border-red-800'>
+              <Link href='/#Studio'>Studios</Link>
+            </li>
+            <li className='ml-10 text-sm uppercase hover:border-b border-red-800'>
+              <Link href='/#More'>More</Link>
+            </li>
+          </ul>
            </div>
-           <button className='mr-3 h-full px-3  uppercase'>
-            book a session
-           </button>
+           <Link href='/#Ourservices' className=' mr-[24px]'>
+           <button className=' uppercase mr-5 px-3 py-4  rounded-md border border-white hover:bg-red-800 bg-red-700'>book a session</button>
+           </Link>
+          
         </div>
       
     </nav>

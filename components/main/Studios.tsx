@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 const Studios = () => {
   return (
-    <div className='w-screen h-auto relative  bg-gray-100 border border-gray-400'>
+    <div id='Studio' className='w-screen h-auto relative  bg-gray-100 border border-gray-400'>
         <div className='flex md:flex-row flex-col mt-[25px] md:px-8 justify-between'>
             <div className='flex flex-col max-w-[400px] gap-6 md:ml-[20px]'>
                 <h1 className='items-center uppercase ml-[450px] mt-[10px] text-[65px] text-bold '>studios</h1>
