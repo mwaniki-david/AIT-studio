@@ -4,9 +4,9 @@ import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <nav className='fixed top-0 w-full h-[65px] bg-white shadow-sm shadow-red-800 backdrop-blur-md z-50 px-[50px]'>
-        <div className='h-full flex flex-row items-center justify-between '>
-           <div className=' flex flex-row items-center h-full w-auto gap-3 ml-6'>
+    <nav className='fixed top-0 w-screen h-flex  bg-white shadow-sm shadow-red-800 backdrop-blur-md z-50 '>
+        <div className='h-full flex flex-row  justify-center gap-[100px]  '>
+           <div className=' flex flex-row  h-full w-auto'>
             <Link
             href='/'
             >
@@ -19,8 +19,8 @@ const Navbar = () => {
                 />
             </Link>
            </div>
-           <div className=' hidden md:flex flex-row md:gap-[50px] lg:gap-[10px]  w-auto h-full items-center px-1 pl-[120px] uppercase '>
-           <ul className='hidden md:flex gap-[45px]  mt-4 px-5 py-3'>
+           <div className=' hidden md:flex flex-row  w-auto h-full items-center uppercase '>
+           <ul className='hidden md:flex py-3 gap-6 ml-[10px] mt-2'>
             <li className='ml-10 text-sm uppercase hover:border-b border-red-800'>
               <Link href='/'>Home</Link>
             </li>
@@ -30,7 +30,7 @@ const Navbar = () => {
             <li className='ml-10 text-sm uppercase hover:border-b border-red-800'>
               <Link href='/#Pricing'>Pricing</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b border-red-800'>
+            <li className='ml-10 text-sm uppercase hover:border-b border-spacing-8 border-red-800'>
               <Link href='/#Studio'>Studios</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b border-red-800'>
@@ -38,9 +38,11 @@ const Navbar = () => {
             </li>
           </ul>
            </div>
-           <Link href='/#Ourservices' className=' mr-[24px]'>
-           <button className=' uppercase mr-5 px-3 py-4  rounded-md border border-white hover:bg-red-800 bg-red-700'>book a session</button>
+           <div className='mt-2'>
+           <Link href='/#Pricing'>
+           <button className=' uppercase  px-3 py-3  rounded-md border border-black hover:bg-red-800 bg-red-700 text-md'>book a session</button>
            </Link>
+           </div>
           
         </div>
       

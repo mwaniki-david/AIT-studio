@@ -1,21 +1,24 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function page() {
   return (
-    <main className='w-screen h-auto relative bg-gray-100 border border-gray-300 mt-1 overflow-y-visible'>
-      <div className='flex flex-col md:flex-row w-full h-full justify-between  md:pt-[120px] px-5 md:px-[25px] py-6 pb-[80px] md:pd-[100px]'>
-        <div className=' max-w-[500px] px-[10px]  pt-[60px] md:pt-[100px] gap-12'>
-          <h1 className='uppercase mt-[20px] px-5 text-[25px]'>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h1>
-          <h2 className='mt-[20px] px-8'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit recusandae mollitia est cupiditate quod ut dignissimos dicta provident itaque necessitatibus esse voluptates sapiente accusantium aliquid, placeat dolore iste temporibus nulla!</h2>
-          <button className='mt-[40px] uppercase ml-5 px-4 py-5 bg-red-800'>book a session</button>
+    <main className='w-screen h-auto relative bg-gray-100 border border-gray-300  overflow-y-visible lg:py-10'>
+      <div className='flex flex-col lg:flex-row w-full h-full items-center justify-center  md:pt-[80px] px-5 md:px-[35px] py-6 pb-[80px] md:pd-[30px]'>
+        <div className=' px-[5px] mt-12 '>
+          <h1 className='uppercase  text-[30px] max-w-[600px]'>ait studios, your one-stop destination for all things multimedia!!</h1>
+          <h2 className='py-1 px-2 mb-5  max-w-[480px] ml-4'>Welcome to AIT Studio, where creativity knows no bounds and every moment is an opportunity to capture the extraordinary.From captivating indoors and outdoors video recordings to stunning photography, seamless podcast recording, and expert scriptwriting..</h2>
+          <Link href='/#Pricing'className=''>
+          <button className='ml-8 uppercase  px-8 rounded-md border border-black text-bold hover:bg-red-800 text-md py-5 bg-red-700'>book a session</button>
+          </Link>
         </div>
-        <div className='  pt-7 mb:pt-[120px] py-4 px-2 '>
+        <div className='px-2'>
           <Image
           src='/aitbackground.jpg'
           alt='aitbackground.jpg'
           width={750}
-          height={700}
-          className=' border border-white rounded-sm'
+          height={900}
+          className=' border border-white rounded-md mt-4 '
           />
         </div>
       </div>
