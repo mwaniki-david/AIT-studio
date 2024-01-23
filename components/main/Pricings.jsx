@@ -5,12 +5,12 @@ import Link from 'next/link';
 
 const Pricing = () => {
   return (
-    <div id='Pricing' className='w-full my-5 mb-[70px] px-4'>
+    <div id='Pricing' className='w-full md:my-5 mb-[70px]'>
       <div className='w-full h-[500px] bg-red-800 absolute mix-blend-overlay'></div>
 
       <div className='max-w-[1240px] mx-auto py-3 '>
 
-        <div className='text-center py-7 mt-[30px] uppercase text-black font-bold'>
+        <div className='text-center py-7 md:mt-[30px] uppercase text-black font-bold'>
           <h2 className='text-[35px] md:text-[65px] uppercase underline underline-offset-8'>Pricing</h2>
           <h3 className='text-[25px] md:text-[25px] '>The right price for your creativity.</h3>
           <p className='text-sm uppercase px-4'>
