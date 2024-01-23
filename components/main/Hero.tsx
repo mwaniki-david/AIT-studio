@@ -18,7 +18,7 @@ export default function page() {
           alt='aitbackground.jpg'
           width={750}
           height={900}
-          className=' rounded-md mt-4 max-w-[670px] shadow-4xl  px-[100px] md:px-[1px]'
+          className=' rounded-md mt-4 max-w-[660px] md:max-w-[670px] shadow-4xl  px-[120px] md:px-[1px]'
           />
         </div>
       </div>
