@@ -8,7 +8,7 @@ import More from '@/components/main/More'
 
 const page = () => {
   return (
-    <main className='h-full w-full'>
+    <main className='h-full w-flex'>
       <Hero/>
       <Ourservices/>
       <Pricings/>
