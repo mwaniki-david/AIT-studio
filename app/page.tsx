@@ -8,7 +8,7 @@ import More from '@/components/main/More'
 
 const page = () => {
   return (
-    <main className='h-full w-flex'>
+    <main className='flex flex-col justify-center items-center h-full w-screen bg-white max-w-[-1]'>
       <Hero/>
       <Ourservices/>
       <Pricings/>
