@@ -6,15 +6,19 @@ const ourservices = () => {
       id="Ourservices"
       className="w-screen md:h-screen relative md:flex bg-gray-300 md:pb-3 mt-[-50px] items-center justify-center px-3"
     >
+      <div className="block md:hidden relative -mt-6 h-[50px] w-[300px] ml-12 rounded-lg px-12 bg-red-700 justify-center items-center">
+        
+
+      </div>
       <div className="flex flex-col px-3 md:py-4 items-center justify-center">
         <div className="flex md:flex-row flex-col">
 
           <div className="flex flex-col  gap-3 justify-center item-center">
             <div className=" px-[5px] ">
-              <h1 className="uppercase mt-3 text-[22px] md:text-[35px] lg:text-[42px] max-w-[600px] md:max-w-[700px] font-bold cursor: pointer">
+              <h1 className="uppercase mt-4 text-[30px] md:text-[35px] lg:text-[42px] max-w-[600px] md:max-w-[700px] font-bold cursor: pointer">
                 your one-stop destination for all things socialmedia!!
               </h1>
-              <h2 className="py-3 md:px-5  text-[12px] md:text-[15px]  max-w-[500px] md:max-w-[660px]  ">
+              <h2 className="py-3 md:px-5  text-[18px] md:text-[15px]  max-w-[500px] md:max-w-[660px]  ">
                 Welcome to AIT Studio, where creativity knows no bounds.We offer
                 a range of services From captivating indoors and outdoors video
                 recordings to stunning photography, seamless podcast recording,

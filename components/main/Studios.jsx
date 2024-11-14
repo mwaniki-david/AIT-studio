@@ -6,9 +6,9 @@ const Studios = () => {
       id="Studio"
       className="flex flex-col h-auto  w-full  justify-center bg-gray-100 items-center md:border border-gray-400 px-4"
     >
-      <div className="text-center md:py-7 md:mt-[45px] uppercase  text-black font-bold">
+      <div className="text-center md:py-7 mt-4 md:mt-[45px] uppercase  text-black font-bold">
         <h2 className="text-[35px] md:text-[50px] md:p-1 uppercase underline underline-offset-8">
-          How to use the app
+           app
         </h2>
         <h3 className="text-[20px] md:text-[25px] ">
           The right price for your creativity.
