@@ -15,7 +15,7 @@ const ourservices = () => {
               <h1 className="uppercase mt-14 text-[30px] md:text-[35px] lg:text-[42px] max-w-[600px] md:max-w-[700px] font-bold cursor: pointer">
                 your one-stop destination for all things socialmedia!!
               </h1>
-              <h2 className=" md:px-5  text-[12px] md:text-[15px]  max-w-[500px] md:max-w-[660px]  ">
+              <h2 className=" md:px-5  text-[12px] md:text-[15px]  max-w-[500px] md:max-w-[660px]  py-3 ">
                 Welcome to AIT Studio, where creativity knows no bounds.We offer
                 a range of services From captivating indoors and outdoors video
                 recordings to stunning photography, seamless podcast recording,
@@ -55,7 +55,7 @@ const ourservices = () => {
               alt="aitbackground "
               width={950}
               height={850}
-              className=" rounded-xl shadow-2xl mt-2 lg:mt-[50px]"
+              className=" rounded-xl shadow-2xl mt-3 lg:mt-[50px]"
             />
           </div>
         </div>
