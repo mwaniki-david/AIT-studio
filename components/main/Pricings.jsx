@@ -10,7 +10,7 @@ const Pricing = () => {
 
       <div className='max-w-[1240px] mx-auto py-3 '>
 
-        <div className='text-center md:py-7  md:mt-[15px] uppercase  text-black font-bold'>
+        <div className='text-center md:py-7  mt-9 md:mt-[15px] uppercase  text-black font-bold'>
           <h2 className='text-[35px] md:text-[65px] md:p-1 uppercase underline underline-offset-8'>Pricing</h2>
           <h3 className='text-[20px] md:text-[25px] px-3 '>The right price for your creativity.</h3>
           <p className='text-sm font-semibold uppercase px-4'>
