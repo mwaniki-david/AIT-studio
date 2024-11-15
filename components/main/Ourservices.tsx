@@ -4,12 +4,8 @@ const ourservices = () => {
   return (
     <main
       id="Ourservices"
-      className="w-screen  relative md:flex bg-gray-300 md:pb-3 mt-[-50px] items-center justify-center px-3"
+      className="w-screen  relative md:flex bg-gray-300 md:pb-3 mt-[-50px] items-center justify-center px-3 pb-4"
     >
-      <div className="block md:hidden relative -mt-6 h-[50px] w-[300px] ml-12 rounded-lg px-12 bg-red-700 justify-center items-center">
-        
-
-      </div>
       <div className="flex flex-col px-3 md:py-4 items-center justify-center">
         <div className="flex md:flex-row flex-col">
 

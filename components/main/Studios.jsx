@@ -7,8 +7,8 @@ const Studios = () => {
       className="flex flex-col h-auto  w-full  justify-center bg-gray-100 items-center md:border border-gray-400 px-4"
     >
       <div className="text-center md:py-7 mt-4 md:mt-[45px] uppercase  text-black font-bold">
-        <h2 className="text-[35px] md:text-[50px] md:p-1 uppercase underline underline-offset-8">
-           app
+        <h2 className="text-[30px] md:text-[50px] md:p-1 uppercase">
+           how to use the app
         </h2>
         <h3 className="text-[20px] md:text-[25px] ">
           The right price for your creativity.
@@ -20,14 +20,23 @@ const Studios = () => {
       </div>
       <div className="grid justify-center items-center lg:gap-6 md:mb-12  px-4 ">
         <div className="flex md:flex-row flex-col  md:px-8  py-4 ">
+        <div className=" block md:hidden md:py-2  py-4 max-w-[700px]">
+            <Image
+              src="/studiopic.jpg"
+              alt="aitbackground "
+              width={750}
+              height={700}
+              className=" rounded-xl shadow-2xl"
+            />
+          </div>
           <div className="flex flex-col max-w-[400px] md:max-w-[500px] ml-3 md:ml-8 gap-3  md:pt-12 item-center justify-center">
-            <h2 className=" text-1xl ">
+            <h2 className=" text-[12px] ">
               Our Solo Studio offers a private haven for individual artists
               seeking solitude and concentration, equipped with state-of-the-art
               amenities to fuel your personal projects.{" "}
             </h2>
           </div>
-          <div className="md:py-2  py-4 max-w-[700px]">
+          <div className=" hidden md:block md:py-2  py-4 max-w-[700px]">
             <Image
               src="/studiopic.jpg"
               alt="aitbackground "
@@ -48,7 +57,7 @@ const Studios = () => {
             />
           </div>
           <div className="flex flex-col max-w-[400px] md:max-w-[500px] ml-3 md:ml-8 gap-3  md:pt-12 item-center justify-center">
-            <h2 className=" text-1xl ">
+            <h2 className=" text-[12px] ">
               Our Solo Studio offers a private haven for individual artists
               seeking solitude and concentration, equipped with state-of-the-art
               amenities to fuel your personal projects.{" "}
