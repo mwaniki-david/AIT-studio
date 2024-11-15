@@ -4,16 +4,16 @@ const Studios = () => {
   return (
     <div
       id="Studio"
-      className="flex flex-col h-auto  w-full  justify-center bg-gray-100 items-center md:border border-gray-400 px-4"
+      className="flex flex-col h-auto  w-full  justify-center bg-gray-100 pb-[60px] items-center md:border border-gray-400 px-4 "
     >
-      <div className="text-center md:py-7 mt-7 md:mt-[45px] uppercase  text-black font-bold">
+      <div className="text-center md:py-7 mt-10 md:mt-[45px] uppercase  text-black font-bold">
         <h2 className="text-[25px] md:text-[50px] md:p-1 uppercase underline underline-offset-4">
            how to use the app
         </h2>
         <h3 className="text-[18px] md:text-[25px] ">
           The right price for your creativity.
         </h3>
-        <p className="text-sm font-semibold  px-4">
+        <p className="text-sm font-semibold lowercase  px-4">
           All the packages are customizable on inquiry also any additional work
           can be handled .
         </p>
