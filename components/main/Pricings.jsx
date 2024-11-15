@@ -18,7 +18,23 @@ const Pricing = () => {
           </p>
         </div>
 
-        <div className='grid md:hidden grid-cols-3 font-bold px-2 gap-2 mb-[90px] mt-12 '>
+        <div className='grid md:hidden grid-cols-2 font-bold px-2 gap-2 mb-[90px] mt-12 '>
+          <div className='bg-white  mt-4 md:-mt-4  text-black  rounded-xl shadow-2xl relative max-h-[350px] max-w-[250px] py-3 px-2'>
+            <span className='uppercase px-2 ml-1 py-1 bg-indigo-200 text-indigo-900 rounded-2xl text-sm'>Basic</span>
+            <div>
+              <p className='text-1xl font-bold py-1 flex ml-2'>$50<span className='text-base text-slate-500 flex flex-col justify-end'>/mo</span></p>
+            </div>
+            <p className=' flex justify-center items-center text-xs  px-2 text-slate-500'>Custom packages available on inquiry.</p>
+            <div className='flex flex-col text-base  justify-center items-center'>
+                <p className='flex  text-sm'><CheckIcon className='w-4 text-green-600'  />video recording.</p>
+                <p className='flex text-sm'><CheckIcon className='w-4 text-green-600'  />photography.</p>
+                <p className='flex text-sm'><CheckIcon className='w-4 text-green-600'  />podcast recording.</p>
+                <p className='flex text-sm'><XCircleIcon className='w-4 text-red-600'  />video editting.</p>
+                <p className='flex text-sm'><XCircleIcon className='w-4 text-red-600'  />thumbnail.</p>
+                <Link href='/Checkout' className='flex py-3 '><button className=' w-auto px-2  py-2 bg-red-800 rounded-md text-white text-sm '>Get Started</button></Link>
+                
+            </div>
+          </div>
           <div className='bg-white  mt-4 md:-mt-4  text-black  rounded-xl shadow-2xl relative max-h-[350px] max-w-[250px] py-3 px-2'>
             <span className='uppercase px-2 ml-1 py-1 bg-indigo-200 text-indigo-900 rounded-2xl text-sm'>Basic</span>
             <div>
