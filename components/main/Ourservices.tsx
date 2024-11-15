@@ -4,7 +4,7 @@ const ourservices = () => {
   return (
     <main
       id="Ourservices"
-      className="w-screen  relative md:flex bg-gray-300 md:pb-3 mt-[-50px] items-center justify-center px-3 pb-4"
+      className="w-screen  relative md:flex bg-gray-300 md:pb-3 mt-[-50px] items-center justify-center px-3 pb-8"
     >
       <div className="flex flex-col px-3 md:py-4 items-center justify-center">
         <div className="flex md:flex-row flex-col">
@@ -29,7 +29,7 @@ const ourservices = () => {
               alt="aitbackground "
               width={950}
               height={850}
-              className=" rounded-xl shadow-2xl lg:mt-[50px]"
+              className=" rounded-xl shadow-2xl mt-2 lg:mt-[50px]"
             />
           </div>
         </div>
