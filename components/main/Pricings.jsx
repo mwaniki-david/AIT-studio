@@ -26,11 +26,11 @@ const Pricing = () => {
             </div>
             <p className=' flex justify-center items-center text-base  px-2 text-slate-500'>Custom packages available on inquiry.</p>
             <div className='flex flex-col text-base md:text-1xl justify-center items-center'>
-                <p className='flex '><CheckIcon className='w-8 text-green-600'  />video recording.</p>
-                <p className='flex'><CheckIcon className='w-8 text-green-600'  />photography.</p>
-                <p className='flex'><CheckIcon className='w-8 text-green-600'  />podcast recording.</p>
-                <p className='flex'><XCircleIcon className='w-8 text-red-600'  />video editting.</p>
-                <p className='flex'><XCircleIcon className='w-8 text-red-600'  />thumbnail.</p>
+                <p className='flex '><CheckIcon className='w-6 text-green-600'  />video recording.</p>
+                <p className='flex'><CheckIcon className='w-6 text-green-600'  />photography.</p>
+                <p className='flex'><CheckIcon className='w-6 text-green-600'  />podcast recording.</p>
+                <p className='flex'><XCircleIcon className='w-6 text-red-600'  />video editting.</p>
+                <p className='flex'><XCircleIcon className='w-6 text-red-600'  />thumbnail.</p>
                 <Link href='/Checkout' className='flex py-2 '><button className=' w-auto px-5 py-2 mt-1  bg-red-800 rounded-md text-white '>Get Started</button></Link>
                 
             </div>
