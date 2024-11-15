@@ -18,7 +18,7 @@ const Pricing = () => {
           </p>
         </div>
 
-        <div className='grid md:hidden grid-cols-3 font-bold px-2 gap-2 mb-8 '>
+        <div className='grid md:hidden grid-cols-3 font-bold px-2 gap-2 mb-[90px] mt-6 '>
           <div className='bg-white  mt-4 md:-mt-4  text-black  rounded-xl shadow-2xl relative max-h-[350px] max-w-[250px] py-3 px-2'>
             <span className='uppercase px-2 ml-1 py-1 bg-indigo-200 text-indigo-900 rounded-2xl text-sm'>Basic</span>
             <div>
