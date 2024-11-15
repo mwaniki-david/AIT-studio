@@ -36,6 +36,22 @@ const Studios = () => {
               amenities to fuel your personal projects.{" "}
             </h2>
           </div>
+          <div className=" block md:hidden md:py-2  py-4 max-w-[700px]">
+            <Image
+              src="/studiopic.jpg"
+              alt="aitbackground "
+              width={750}
+              height={700}
+              className=" rounded-xl shadow-2xl"
+            />
+          </div>
+          <div className="flex flex-col max-w-[400px] md:max-w-[500px] ml-3 md:ml-8 gap-3  md:pt-12 item-center justify-center">
+            <h2 className=" text-[12px] ">
+              Our Solo Studio offers a private haven for individual artists
+              seeking solitude and concentration, equipped with state-of-the-art
+              amenities to fuel your personal projects.{" "}
+            </h2>
+          </div>
           <div className=" hidden md:block md:py-2  py-4 max-w-[700px]">
             <Image
               src="/studiopic.jpg"

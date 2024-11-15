@@ -17,7 +17,7 @@ const More = () => {
     },
   };
   return (
-    <div id='More' className='w-screen h-full gap-5 flex flex-col items-center justify-center md:mb-[120px] px-12'>
+    <div id='More' className='w-screen h-screen gap-5 flex flex-col items-center justify-center md:mb-[120px] px-12'>
         <div className='py-4 px-2 mt-[30px] text-center max-w-[450px] md:max-w-[750px] '>
             <h1 className='items-center justify-center  uppercase underline underline-offset-8 text-[30px] md:text-[65px] font-bold'>more offers</h1>
             <h2 className=' text-[22px] uppercase'>@ nice prices</h2>
