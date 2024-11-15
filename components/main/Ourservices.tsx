@@ -4,7 +4,7 @@ const ourservices = () => {
   return (
     <main
       id="Ourservices"
-      className="w-screen md:h-screen relative md:flex bg-gray-300 md:pb-3 mt-[-50px] items-center justify-center px-3"
+      className="w-screen  relative md:flex bg-gray-300 md:pb-3 mt-[-50px] items-center justify-center px-3"
     >
       <div className="block md:hidden relative -mt-6 h-[50px] w-[300px] ml-12 rounded-lg px-12 bg-red-700 justify-center items-center">
         
@@ -18,7 +18,7 @@ const ourservices = () => {
               <h1 className="uppercase mt-4 text-[30px] md:text-[35px] lg:text-[42px] max-w-[600px] md:max-w-[700px] font-bold cursor: pointer">
                 your one-stop destination for all things socialmedia!!
               </h1>
-              <h2 className="py-3 md:px-5  text-[18px] md:text-[15px]  max-w-[500px] md:max-w-[660px]  ">
+              <h2 className="py-3 md:px-5  text-[12px] md:text-[15px]  max-w-[500px] md:max-w-[660px]  ">
                 Welcome to AIT Studio, where creativity knows no bounds.We offer
                 a range of services From captivating indoors and outdoors video
                 recordings to stunning photography, seamless podcast recording,
@@ -27,7 +27,7 @@ const ourservices = () => {
               </h2>
             </div>
           </div>
-          <div className=" px-4 py-10 max-w-[700px]">
+          <div className=" px-4 py-5 md:py-10 max-w-[700px]">
             <Image
               src="/studiopic2.jpg"
               alt="aitbackground "
