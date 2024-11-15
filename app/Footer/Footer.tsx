@@ -11,7 +11,7 @@ import {
 const Footer = () => {
   return (
     <div className='w-full mt-24 bg-black text-gray-300  px-2 font-bold'>
-        <div className=' mx-auto grid grid-cols-2 md:grid-cols-4 border-b-2 max-w-[1240px] border-red-800 py-8 px-5'>
+        <div className=' grid grid-cols-4 md:grid-cols-4 border-b-2 max-w-[1240px] gap-[120px]  border-red-800 py-8 px-10'>
             <div>
                 <h6 className='font-bold uppercase pt-2'>Solutions</h6>
                 <ul>
@@ -41,7 +41,7 @@ const Footer = () => {
                     <li className='py-1'>Partners</li>
                 </ul>
             </div>
-            <div>
+            <div className='hidden md:block'>
                 <h6 className='font-bold uppercase pt-2'>Legal</h6>
                 <ul>
                     <li className='py-1'>Claims</li>
