@@ -18,7 +18,57 @@ const Pricing = () => {
           </p>
         </div>
 
-        <div className='grid md:grid-cols-3 font-bold  '>
+        <div className='grid md:hidden grid-cols-3 font-bold px-2 gap-2 mb-8 '>
+          <div className='bg-white  mt-4 md:-mt-4  text-black  rounded-xl shadow-2xl relative max-h-[350px] max-w-[250px] py-3 px-2'>
+            <span className='uppercase px-2 ml-1 py-1 bg-indigo-200 text-indigo-900 rounded-2xl text-sm'>Basic</span>
+            <div>
+              <p className='text-1xl font-bold py-1 flex ml-2'>$50<span className='text-base text-slate-500 flex flex-col justify-end'>/mo</span></p>
+            </div>
+            <p className=' flex justify-center items-center text-xs  px-2 text-slate-500'>Custom packages available on inquiry.</p>
+            <div className='flex flex-col text-base  justify-center items-center'>
+                <p className='flex  text-sm'><CheckIcon className='w-4 text-green-600'  />video recording.</p>
+                <p className='flex text-sm'><CheckIcon className='w-4 text-green-600'  />photography.</p>
+                <p className='flex text-sm'><CheckIcon className='w-4 text-green-600'  />podcast recording.</p>
+                <p className='flex text-sm'><XCircleIcon className='w-4 text-red-600'  />video editting.</p>
+                <p className='flex text-sm'><XCircleIcon className='w-4 text-red-600'  />thumbnail.</p>
+                <Link href='/Checkout' className='flex py-3 '><button className=' w-auto px-2  py-2 bg-red-800 rounded-md text-white text-sm '>Get Started</button></Link>
+                
+            </div>
+          </div>
+          <div className='bg-white  mt-4 md:-mt-4  text-black  rounded-xl shadow-2xl relative max-h-[350px] max-w-[250px] py-3 px-2'>
+            <span className='uppercase px-2 ml-1 py-1 bg-indigo-200 text-indigo-900 rounded-2xl text-sm'>Basic</span>
+            <div>
+              <p className='text-1xl font-bold py-1 flex ml-2'>$50<span className='text-base text-slate-500 flex flex-col justify-end'>/mo</span></p>
+            </div>
+            <p className=' flex justify-center items-center text-xs  px-2 text-slate-500'>Custom packages available on inquiry.</p>
+            <div className='flex flex-col text-base  justify-center items-center'>
+                <p className='flex  text-sm'><CheckIcon className='w-4 text-green-600'  />video recording.</p>
+                <p className='flex text-sm'><CheckIcon className='w-4 text-green-600'  />photography.</p>
+                <p className='flex text-sm'><CheckIcon className='w-4 text-green-600'  />podcast recording.</p>
+                <p className='flex text-sm'><XCircleIcon className='w-4 text-red-600'  />video editting.</p>
+                <p className='flex text-sm'><XCircleIcon className='w-4 text-red-600'  />thumbnail.</p>
+                <Link href='/Checkout' className='flex py-3 '><button className=' w-auto px-2  py-2 bg-red-800 rounded-md text-white text-sm '>Get Started</button></Link>
+                
+            </div>
+          </div>
+          <div className='bg-white  mt-4 md:-mt-4  text-black  rounded-xl shadow-2xl relative max-h-[350px] max-w-[250px] py-3 px-2'>
+            <span className='uppercase px-2 ml-1 py-1 bg-indigo-200 text-indigo-900 rounded-2xl text-sm'>Basic</span>
+            <div>
+              <p className='text-1xl font-bold py-1 flex ml-2'>$50<span className='text-base text-slate-500 flex flex-col justify-end'>/mo</span></p>
+            </div>
+            <p className=' flex justify-center items-center text-xs  px-2 text-slate-500'>Custom packages available on inquiry.</p>
+            <div className='flex flex-col text-base  justify-center items-center'>
+                <p className='flex  text-sm'><CheckIcon className='w-4 text-green-600'  />video recording.</p>
+                <p className='flex text-sm'><CheckIcon className='w-4 text-green-600'  />photography.</p>
+                <p className='flex text-sm'><CheckIcon className='w-4 text-green-600'  />podcast recording.</p>
+                <p className='flex text-sm'><XCircleIcon className='w-4 text-red-600'  />video editting.</p>
+                <p className='flex text-sm'><XCircleIcon className='w-4 text-red-600'  />thumbnail.</p>
+                <Link href='/Checkout' className='flex py-3 '><button className=' w-auto px-2  py-2 bg-red-800 rounded-md text-white text-sm '>Get Started</button></Link>
+                
+            </div>
+          </div>
+        </div>
+        <div className='hidden md:grid md:grid-cols-3 font-bold  '>
           <div className='bg-white ml-[80px] mt-4 md:-mt-4  text-black  rounded-xl shadow-2xl relative max-h-[370px] max-w-[250px] py-4 px-2'>
             <span className='uppercase px-5 ml-7 py-1 bg-indigo-200 text-indigo-900 rounded-2xl text-sm'>Basic</span>
             <div>
@@ -67,38 +117,6 @@ const Pricing = () => {
                 
             </div>
           </div>
-          {/* <div className='bg-white text-black m-4 p-8 rounded-xl shadow-2xl relative max-h-[620px]'>
-            <span className='uppercase px-3 py-1 bg-indigo-200 text-indigo-900 rounded-2xl text-sm'>standard</span>
-            <div>
-              <p className='text-5xl font-bold py-4 flex'>$80<span className='text-xl text-slate-500 flex flex-col justify-end'>/mo</span></p>
-            </div>
-            <p className='text-1xl py-4 text-slate-500'>Custom packages available on inquiry.</p>
-            <div className='text-1xl'>
-                <p className='flex py-3'><CheckIcon className='w-8 mr-5 text-green-600'  />video recording.</p>
-                <p className='flex py-3'><CheckIcon className='w-8 mr-5 text-green-600'  />photography.</p>
-                <p className='flex py-3'><CheckIcon className='w-8 mr-5 text-green-600'  />podcast recording audio/video.</p>
-                <p className='flex py-3'><CheckIcon className='w-8 mr-5 text-green-600'  />video editting.</p>
-                <p className='flex py-3'><XCircleIcon className='w-8 mr-5 text-red-600'  />thumbnail.</p>
-                <Link href='/Standard'><button className='w-full py-4 my-4 bg-red-800 rounded-md '>Get Started</button></Link>
-                
-            </div>
-          </div> */}
-          {/* <div className='bg-white text-black m-4 p-8 rounded-xl shadow-2xl relative max-h-[620px]'>
-            <span className='uppercase px-3 py-1 bg-indigo-200 text-indigo-900 rounded-2xl text-sm'>premium</span>
-            <div>
-              <p className='text-5xl font-bold py-4 flex'>$150<span className='text-xl text-slate-500 flex flex-col justify-end'>/mo</span></p>
-            </div>
-            <p className='text-1xl py-4 text-slate-500'>Custom packages available on inquiry.</p>
-            <div className='text-1xl'>
-                <p className='flex py-3'><CheckIcon className='w-8 mr-5 text-green-600'  />video recording.</p>
-                <p className='flex py-3'><CheckIcon className='w-8 mr-5 text-green-600'  />photography.</p>
-                <p className='flex py-3'><CheckIcon className='w-8 mr-5 text-green-600'  />podcast recording audio/video.</p>
-                <p className='flex py-3'><CheckIcon className='w-8 mr-5 text-green-600'  />video editting.</p>
-                <p className='flex py-3'><CheckIcon className='w-8 mr-5 text-green-600'  />thumbnail.</p>
-                <Link href='/Premium'><button className='w-full py-4 my-4 bg-red-800 rounded-md '>Get Started</button></Link>
-                
-            </div>
-          </div> */}
         </div>
       </div>
     </div>
