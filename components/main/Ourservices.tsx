@@ -26,30 +26,30 @@ const ourservices = () => {
               <ul className="flex flex-row text-base md:text-1xl justify-start items-start px-4 py-2 gap-12 mt-2">
                 <div className="font-bold">
                 <p className="flex flex-row">
-                <MdArrowCircleRight  className="mt-1 w-6"/>top job
+                <MdArrowCircleRight  className="mt-1 w-6"/>video recording
                 </p>
                 <p className="flex flex-row">
-                <MdArrowCircleRight  className="mt-1 w-6"/>top job
+                <MdArrowCircleRight  className="mt-1 w-6"/>photography .
                 </p>
                 <p className="flex flex-row">
-                <MdArrowCircleRight  className="mt-1 w-6"/>top job
+                <MdArrowCircleRight  className="mt-1 w-6"/>podcast recording.
                 </p>
                 <p className="flex flex-row">
-                <MdArrowCircleRight  className="mt-1 w-6"/>top job
+                <MdArrowCircleRight  className="mt-1 w-6"/>video editting.
                 </p>
                 </div>
                 <div className="font-bold ">
                 <p className="flex flex-row">
-                <MdArrowCircleRight  className="mt-1 w-6"/>top job
+                <MdArrowCircleRight  className="mt-1 w-6"/>thumbnail.
                 </p>
                 <p className="flex flex-row">
-                <MdArrowCircleRight  className="mt-1 w-6"/>top job
+                <MdArrowCircleRight  className="mt-1 w-6"/>Campaign management
                 </p>
                 <p className="flex flex-row">
-                <MdArrowCircleRight  className="mt-1 w-6"/>top job
+                <MdArrowCircleRight  className="mt-1 w-6"/>Content creation
                 </p>
                 <p className="flex flex-row">
-                <MdArrowCircleRight  className="mt-1 w-6"/>top job
+                <MdArrowCircleRight  className="mt-1 w-6"/>Trend research
                 </p>
                 </div>
               </ul>
@@ -57,7 +57,7 @@ const ourservices = () => {
           </div>
           <div className=" px-4 py-5 md:py-10 max-w-[700px]">
             <Image
-              src="/studiopic2.jpg"
+              src="/studiopic5.jpg"
               alt="aitbackground "
               width={950}
               height={1050}

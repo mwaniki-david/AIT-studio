@@ -38,23 +38,23 @@ const Studios = () => {
           </div>
           <div className=" block md:hidden md:py-2  py-4 max-w-[700px]">
             <Image
-              src="/studiopic.jpg"
+              src="/studiopic3.jpg"
               alt="aitbackground "
               width={750}
               height={700}
               className=" rounded-xl shadow-2xl"
             />
           </div>
-          <div className="flex flex-col max-w-[400px] md:max-w-[500px] ml-3 md:ml-8 gap-3  md:pt-12 item-center justify-center">
+          <div className="block md:hidden  flex-col max-w-[400px] md:max-w-[500px] ml-3 md:ml-8 gap-3  md:pt-12 item-center justify-center">
             <h2 className=" text-[12px] ">
-              Our Solo Studio offers a private haven for individual artists
-              seeking solitude and concentration, equipped with state-of-the-art
-              amenities to fuel your personal projects.{" "}
+            Elevate your creativity further in our Group Studio, a spacious
+              setting tailored for larger teams, workshops, and brainstorming
+              sessions.{" "}
             </h2>
           </div>
           <div className=" hidden md:block md:py-2  py-4 max-w-[700px]">
             <Image
-              src="/studiopic.jpg"
+              src="/studiopic4.jpg"
               alt="aitbackground "
               width={750}
               height={700}
@@ -65,7 +65,7 @@ const Studios = () => {
         <div className="flex md:flex-row flex-col  md:px-8  py-4 ">
           <div className="md:py-2  py-4 max-w-[700px]">
             <Image
-              src="/studiopic.jpg"
+              src="/studiopic4.jpg"
               alt="aitbackground "
               width={750}
               height={700}
