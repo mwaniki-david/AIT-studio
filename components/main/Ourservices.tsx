@@ -24,7 +24,7 @@ const ourservices = () => {
               </h2>
               <h3 className='text-[13px] md:text-[25px] px-2 '>The right price for your creativity.</h3>
               <ul className="flex flex-row text-base md:text-1xl justify-start items-start px-4 py-2 gap-12 mt-2">
-                <div className="font-bold">
+                <div className="font-bold text-sm">
                 <p className="flex flex-row">
                 <MdArrowCircleRight  className="mt-1 w-6"/>video recording
                 </p>
@@ -38,7 +38,7 @@ const ourservices = () => {
                 <MdArrowCircleRight  className="mt-1 w-6"/>video editting.
                 </p>
                 </div>
-                <div className="font-bold ">
+                <div className="font-bold text-sm ">
                 <p className="flex flex-row">
                 <MdArrowCircleRight  className="mt-1 w-6"/>thumbnail.
                 </p>
